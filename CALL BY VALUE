@@ -1,5 +1,5 @@
-//WAP to CALL BY VALUE
-#include<stdio.h>
+//WAP to CALL BY VALUE //When we call function in call by value, the copies(value) of the variable
+#include<stdio.h>      //so the copy changes but the value in variable stays the same
 #include<conio.h>
 void change(int a);
 int main(){
