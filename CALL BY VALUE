@@ -1,0 +1,15 @@
+//WAP to CALL BY VALUE
+#include<stdio.h>
+#include<conio.h>
+void change(int a);
+int main(){
+	int a=10;
+	printf("Before calling function, a = %d\n",a);
+	change(a);
+	printf("After calling function, a = %d\n",a);
+	getch();
+}
+void change(int n){
+	n = n + 10;
+	printf("The value of a inside function change is : %d\n",n);
+}
